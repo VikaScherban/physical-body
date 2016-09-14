@@ -1,0 +1,24 @@
+{
+  "name": "phisical-body",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-sass": "^2.1.0"
+  },
+  "dependencies": {
+    "gulp-sass": "^2.1.0",
+    "gulp": "^3.9.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/StrangerViki/phisical-body.git"
+  },
+  "homepage": "https://bitbucket.org/StrangerViki/phisical-body#readme",
+  "description": ""
+}

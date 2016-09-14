@@ -1,0 +1,67 @@
+.side-bar
+  padding: 14px 0
+  width: 235px
+  +media(xs-sm)
+    display: none
+.side-bar-menu
+  padding-bottom: 20px
+  height: 396px
+.side-bar-menu__item
+  text-transform: uppercase
+  font-size: 12px
+  font-weight: bold
+  color: black
+  &:hover
+    text-decoration: none
+    color: inherit
+    cursor: pointer
+.side-bar-menu-button
+  padding: 12px  36px
+.side-bar-articles
+  background-color: #F4F4F4
+  font-size: 12px
+  padding: 8px 38px
+  height: 1524px
+  overflow-y: scroll
+  +media(xs-sm)
+    height: 1492px
+.side-bar-articles-article
+  padding-bottom: 30px
+  padding-top: 20px
+.side-bar-articles-article__date
+  font-size: 10px
+  padding-bottom: 10px
+.side-bar-articles-article__text
+  font-style: italic
+.side-bar-articles-article__label
+  width: 23px
+  height: 23px
+  border-radius: 50%
+  background-color: white
+  text-align: center
+  margin-top: 10px
+.article-symbol_position
+  vertical-align: bottom
+.left-side-menu-item, .left-side-user-block__cart, .left-side__circle
+  cursor: pointer
+  &:hover
+    opacity: 0.7
+//Mobile Button
+.mobile-side-bar
+  height: 78px
+  background-color: #717171
+  border-bottom: 1px solid #656565
+  color: white
+  font-size: 11px
+  font-family: 'Open Sans', sans-serif
+  padding-top: 15px
+  cursor: pointer
+  +media(md-lg)
+    display: none
+  &:hover
+    color: wheat
+.side-bar_visible
+  position: absolute
+  display: block
+  z-index: 2
+  background-color: white

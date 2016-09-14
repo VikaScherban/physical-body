@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+<head>
+    <title>Main</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+<!--Left Side-->
+<div class="left-side">
+    <div class="left-side-label"><img src="img/label.png" class="left-side-label__img"></div>
+    <!--Mobile Button-->
+    <div class="mobile-side-bar">
+        <i class="fa fa-bars fa-3x"></i>
+        <div>Меню</div>
+    </div>
+    <div class="left-side-user-block">
+        <div class="left-side__circle"></div>
+        <div class="left-side-user-block__cart">
+            <i class="fa fa-shopping-cart fa-lg cart__img"></i>
+            <span class="circle-basket"><span class="figure">10</span></span>
+        </div>
+    </div>
+    <div class="">
+        <div class="left-side-menu-item">
+            <div class="left-side__circle left-side-menu-item__people-img"></div>
+            <div class="left-side-menu-item__name">Компания</div>
+        </div>
+        <div class="left-side-menu-item">
+            <div class="left-side__circle left-side-menu-item__home-img"></div>
+            <div class="left-side-menu-item__name">Франчайзинг</div>
+        </div>
+    </div>
+</div>
+<div class="padding_side">
+    <header>
+        <div class="container-fluid">
+            <div class="row header">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 header-line">
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 header-line-name-block inline_block"><span class="header-line__site-name">Физикатела</span></div>
+                    <form class="col-lg-3 col-md-3 col-sm-3 col-xs-3 form-search inline_block">
+                        <input type="button" name="search-button" value="&#128269" class="search__button">
+                        <input type="search" name="q" placeholder="Поиск по сайту" class="search__line">
+                    </form>
+                    <div class="col-lg-offset-2 col-md-offset-1 col-lg-2 col-md-3 col-sm-3 col-xs-3 inline_block header-line-info">
+                        <div class="header-line-info__top">Бесплатно по России</div>
+                        <div class="header-line-info__bottom">8 800 555 23 32</div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-3 col-xs-3 inline_block header-line-info">
+                        <div class="header-line-info__top">Ваш город</div>
+
+                        <div class="select-list">
+                            <select class="select-native" id="town-select">
+                                <option>Нижний Новгород</option>
+                                <option>Александрия</option>
+                                <option>Смела</option>
+                                <option>Киев</option>
+                                <option>Камянець-Подольск</option>
+                            </select>
+                            <div class="telephone-block_font-size inline_block" id="town-select-value">Нижний Новгород</div>
+                            <div class="inline_block"><i class="fa fa-chevron-down"></i></div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--Side Bar-->
+    <div class="side-bar float_left">
+        <div class="side-bar-menu">
+            <ul>
+                <li class="side-bar-menu-button"><a class="side-bar-menu__item">Витамины и минералы</a></li>
+                <li class="side-bar-menu-button"><a class="side-bar-menu__item">Спортивное питание</a></li>
+                <li class="side-bar-menu-button"><a class="side-bar-menu__item">Протеины</a></li>
+                <li class="side-bar-menu-button"><a class="side-bar-menu__item">Диета</a></li>
+                <li class="side-bar-menu-button"><a class="side-bar-menu__item">Очищение и пищеварение</a></li>
+                <li class="side-bar-menu-button"><a class="side-bar-menu__item">Сексуальное здоровье</a></li>
+                <li class="side-bar-menu-button"><a class="side-bar-menu__item">Энергия и выносливость</a></li>
+                <li class="side-bar-menu-button"><a class="side-bar-menu__item">Аксессуары</a></li>
+            </ul>
+        </div>
+        <div class="side-bar-articles">
+            <div class="side-bar-articles-article">
+                <div class="side-bar-articles-article__date">12.02.2014</div>
+                <div class="side-bar-articles-article__text">
+                    Руководствуясь опытом
+                    и стремлением предоставить нашим клиентам лучший сервис, мы разработали
+                    <a>@ Vilashka</a> программу оптимизации способов доставки. <a>http://t.com/efOIJf</a>
+                </div>
+                <div class="side-bar-articles-article__label"><i class="fa fa-twitter fa-lg article-symbol_position"></i></div>
+            </div>
+            <div class="side-bar-articles-article">
+                <div class="side-bar-articles-article__date">12.02.2014</div>
+                <div class="side-bar-articles-article__text">
+                    Руководствуясь опытом
+                    и стремлением предоставить нашим клиентам лучший сервис, мы разработали
+                    <a>@ Vilashka</a> программу оптимизации способов доставки. <a>http://t.com/efOIJf</a>
+                </div>
+                <div class="side-bar-articles-article__label"><i class="fa fa-facebook fa-lg article-symbol_position"></i></div>
+            </div>
+            <div class="side-bar-articles-article">
+                <div class="side-bar-articles-article__date">12.02.2014</div>
+                <div class="side-bar-articles-article__text">
+                    Руководствуясь опытом
+                    и стремлением предоставить нашим клиентам лучший сервис, мы разработали
+                    <a>@ Vilashka</a> программу оптимизации способов доставки. <a>http://t.com/efOIJf</a>
+                </div>
+                <div class="side-bar-articles-article__label"><i class="fa fa-twitter fa-lg twitter-symbol"></i></div>
+            </div>
+            <div class="side-bar-articles-article">
+                <div class="side-bar-articles-article__date">12.02.2014</div>
+                <div class="side-bar-articles-article__text">
+                    Руководствуясь опытом
+                    и стремлением предоставить нашим клиентам лучший сервис, мы разработали
+                    <a>@ Vilashka</a> программу оптимизации способов доставки. <a>http://t.com/efOIJf</a>
+                </div>
+                <div class="side-bar-articles-article__label"><i class="fa fa-facebook fa-lg article-symbol_position"></i></div>
+            </div>
+            <div class="side-bar-articles-article">
+                <div class="side-bar-articles-article__date">12.02.2014</div>
+                <div class="side-bar-articles-article__text">
+                    Руководствуясь опытом
+                    и стремлением предоставить нашим клиентам лучший сервис, мы разработали
+                    <a>@ Vilashka</a> программу оптимизации способов доставки. <a>http://t.com/efOIJf</a>
+                </div>
+                <div class="side-bar-articles-article__label"><i class="fa fa-twitter fa-lg twitter-symbol"></i></div>
+            </div>
+            <div class="side-bar-articles-article">
+                <div class="side-bar-articles-article__date">12.02.2014</div>
+                <div class="side-bar-articles-article__text">
+                    Руководствуясь опытом
+                    и стремлением предоставить нашим клиентам лучший сервис, мы разработали
+                    <a>@ Vilashka</a> программу оптимизации способов доставки. <a>http://t.com/efOIJf</a>
+                </div>
+                <div class="side-bar-articles-article__label"><i class="fa fa-facebook fa-lg article-symbol_position"></i></div>
+            </div>
+            <div class="side-bar-articles-article">
+                <div class="side-bar-articles-article__date">12.02.2014</div>
+                <div class="side-bar-articles-article__text">
+                    Руководствуясь опытом
+                    и стремлением предоставить нашим клиентам лучший сервис, мы разработали
+                    <a>@ Vilashka</a> программу оптимизации способов доставки. <a>http://t.com/efOIJf</a>
+                </div>
+                <div class="side-bar-articles-article__label"><i class="fa fa-twitter fa-lg twitter-symbol"></i></div>
+            </div>
+            <div class="side-bar-articles-article">
+                <div class="side-bar-articles-article__date">12.02.2014</div>
+                <div class="side-bar-articles-article__text">
+                    Руководствуясь опытом
+                    и стремлением предоставить нашим клиентам лучший сервис, мы разработали
+                    <a>@ Vilashka</a> программу оптимизации способов доставки. <a>http://t.com/efOIJf</a>
+                </div>
+                <div class="side-bar-articles-article__label"><i class="fa fa-facebook fa-lg article-symbol_position"></i></div>
+            </div>
+            <div class="side-bar-articles-article">
+                <div class="side-bar-articles-article__date">12.02.2014</div>
+                <div class="side-bar-articles-article__text">
+                    Руководствуясь опытом
+                    и стремлением предоставить нашим клиентам лучший сервис, мы разработали
+                    <a>@ Vilashka</a> программу оптимизации способов доставки. <a>http://t.com/efOIJf</a>
+                </div>
+                <div class="side-bar-articles-article__label"><i class="fa fa-twitter fa-lg twitter-symbol"></i></div>
+            </div>
+        </div>
+    </div>
+    <!--Content-->
+    <div class="container-fluid content-padding">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-right_0">
+                <div class="advertising advertising_background advertising-first-img" style="background-image: url('img/matrix.png')">
+                    <div class="advertising-block-large">
+                        <span class="advertising__label">Протеин</span>
+                        <div class="advertising-block-text">
+                            <div class="advertising-block-text-large_param">
+                                <span class="advertising-block_line-limiter">Попробуй на вкус Syntrax&reg; Matrix&reg; <span class="advertising-block-large_font-size">5,0</span></span>
+                            </div>
+                            <div>
+                                <div class="advertising-block-large-text__price inline_block">10 990<i class="fa fa-rub"></i></div>
+                                <div class="inline_block advertising-block-text-little">
+                                    <span>Вместо<br><span class="advertising-block-first-text__line-through">12 900</span><i class="fa fa-rub"></i></span>
+                                </div>
+                                <div class="advertising-block-text__little">5 штук</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="advertising">
+                    <div class="advertising-part float_left">
+                        <div class="advertising-part_part advertising_background" style="background-image: url('img/pure-fit.png')">
+                            <div class="advertising-block-middle">
+                                <span class="advertising__label">Акция</span>
+                                <div class="advertising-block-text">
+                                    <div class="advertising-block-text-middle_param">
+                                        <span class="advertising-block_line-limiter">Батончики <strong>PureFit</strong><br> по специальной цене</span>
+                                    </div>
+                                    <div>
+                                        <div class="advertising-block-middle-text__price inline_block">1 290<i class="fa fa-rub"></i></div>
+                                        <div class="advertising-block-text-little inline_block">Предложение действует до 24 мая 2014</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="advertising-part_part advertising_background" style="background-image: url('img/dong-quai.png')">
+                            <div class="advertising-block-middle">
+                                <span class="advertising__label">Акция</span>
+                                <div class="advertising-block-text advertising-block-text_color-black">
+                                    <div class="advertising-block-text-middle_param">
+                                        <span class="advertising-block_line-limiter"><strong>Дудник Китайский</strong><br> по специальной цене</span>
+                                    </div>
+                                    <div>
+                                        <div class="advertising-block-middle-text__price inline_block">1 290<i class="fa fa-rub"></i></div>
+                                        <div class="advertising-block-text-little inline_block">Предложение действует до 24 мая 2014</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="advertising-part advertising_background inline_block" style="background-image: url('img/DHEA.png')">
+                        <div class="advertising-block-xm">
+                            <span class="advertising__label advertising-label_color-grey">Долголетие</span>
+                            <div class="advertising-block-text">
+                                <div class="advertising-block-text-middle_param">
+                                    <span class="advertising-block_line-limiter"><strong>Jarrow Formulas DHEA</strong><br> по специальной цене</span>
+                                </div>
+                                <div>
+                                    <div class="advertising-block-large-text__price inline_block">1 290<i class="fa fa-rub"></i></div>
+                                    <div class="advertising-block-text-little inline_block">Предложение действует до 24 мая 2014</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="advertising">
+                    <div class="advertising-part float_left">
+                        <div class="">
+                            <div class="advertising-part_half advertising-block-middle advertising-part-create-store float_left">
+                                <span class="advertising-part-create-store__text">Открой магазин в своем городе<br></span>
+                                <input type="button" value="Узнать больше" class="advertising-part-create-store__button">
+                            </div>
+                            <div class="advertising-part_half advertising_background inline_block" style="background-image: url('img/little-map.png')"></div>
+                        </div>
+                        <div class="advertising-part_top">
+                            <div class="advertising-part_half advertising_background float_left" style="background-image: url('img/isolate.png')"></div>
+                            <div class="advertising-part_half advertising-part-article inline_block">
+                                <div class="side-bar-articles-article__date">12.02.2014</div>
+                                <div class="advertising-part-article__text">Учитесь! Вот как нужно продавать железяки</div>
+                                <div><a>Все статьи</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="advertising-part inline_block advertising-part-review">
+                        <div class="advertising-part-review-block">
+                            <div><i class="fa fa-quote-left"></i></div>
+                            <div class="advertising-part-review-block__text">
+                                Визитная карточка — это больше, чем номера ваших телефонов и адрес электронной почты на кусочке бумаги, которые легко можно найти
+                                в интернете. Это лаконичный рассказ
+                                о лучших качествах компании или человека, поэтому не стоит ограничивать воображение при выборе ее дизайна.
+                            </div>
+                        </div>
+                        <div class="advertising-part-review-author">
+                            <div class="advertising-part-review-author__img inline_block"></div>
+                            <div class="advertising-part-review-author__name inline_block">
+                                <a>Ирина Иванова</a>
+                                <div>Руководитель группы</div>
+                            </div>
+                            <div class="advertising-part-review-author-all inline_block float_right"><a>Все отзывы</a></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="advertising">
+                    <div class="advertising-part advertising_background float_left" style="background-image: url('img/optimum.png')">
+                        <div class="advertising-block-xm">
+                            <span class="advertising__label advertising-label_color-red">Гейнер</span>
+                            <div class="advertising-block-text">
+                                <div class="advertising-block-text-middle_param">
+                                    <span class="advertising-block_line-limiter"><strong>Optimum Nutrition Serios Mass</strong><br> по специальной цене</span>
+                                </div>
+                                <div>
+                                    <div class="advertising-block-large-text__price">1 390<i class="fa fa-rub"></i></div>
+                                    <div class="advertising-block-text-little padding-left_0">Осталось 50 штук</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="advertising-part advertising_background inline_block" style="background-image: url('img/living-nature.png')">
+                        <div class="advertising-block-xm">
+                            <span class="advertising__label advertising-label_color-red">Для волос</span>
+                            <div class="advertising-block-text">
+                                <div class="advertising-block-text-middle_param">
+                                    <span class="advertising-block_line-limiter"><strong>Living Nature&reg;</strong><br>сбалансированный шампунь</span>
+                                </div>
+                                <div>
+                                    <div class="advertising-block-large-text__price">1 390<i class="fa fa-rub"></i></div>
+                                    <div class="advertising-block-text-little padding-left_0">Осталось 50 штук</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="advertising">
+                    <div class="advertising-part advertising_background float_left" style="background-image: url('img/living-nature.png')">
+                        <div class="advertising-block-xm">
+                            <span class="advertising__label advertising-label_color-red">Для волос</span>
+                            <div class="advertising-block-text">
+                                <div class="advertising-block-text-middle_param">
+                                    <span class="advertising-block_line-limiter"><strong>Living Nature&reg;</strong><br>сбалансированный шампунь</span>
+                                </div>
+                                <div>
+                                    <div class="advertising-block-large-text__price">1 390<i class="fa fa-rub"></i></div>
+                                    <div class="advertising-block-text-little padding-left_0">Осталось 50 штук</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="advertising-part advertising_background inline_block" style="background-image: url('img/muscle-pharm.png')">
+                        <div class="advertising-block-xm">
+                            <span class="advertising__label advertising-label_color-green">Протеин</span>
+                            <div class="advertising-block-text">
+                                <div class="advertising-block-text-middle_param">
+                                    <span class="advertising-block_line-limiter"><strong>MusclePharm Combat Powder</strong><br>по специальной цене</span>
+                                </div>
+                                <div>
+                                    <div class="advertising-block-large-text__price">1 390<i class="fa fa-rub"></i></div>
+                                    <div class="advertising-block-text-little padding-left_0">Осталось 50 штук</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="advertising">
+                    <div class="advertising-part float_left">
+                        <div class="advertising-part_part advertising_background" style="background-image: url('img/pure-fit.png')">
+                            <div class="advertising-block-middle">
+                                <span class="advertising__label">Акция</span>
+                                <div class="advertising-block-text">
+                                    <div class="advertising-block-text-middle_param">
+                                        <span class="advertising-block_line-limiter">Батончики <strong>PureFit</strong><br> по специальной цене</span>
+                                    </div>
+                                    <div>
+                                        <div class="advertising-block-middle-text__price inline_block">1 290<i class="fa fa-rub"></i></div>
+                                        <div class="advertising-block-text-little inline_block">Предложение действует до 24 мая 2014</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="advertising-part_part advertising_background" style="background-image: url('img/dong-quai.png')">
+                            <div class="advertising-block-middle">
+                                <span class="advertising__label">Акция</span>
+                                <div class="advertising-block-text advertising-block-text_color-black">
+                                    <div class="advertising-block-text-middle_param">
+                                        <span class="advertising-block_line-limiter"><strong>Дудник Китайский</strong><br> по специальной цене</span>
+                                    </div>
+                                    <div>
+                                        <div class="advertising-block-middle-text__price inline_block">1 290<i class="fa fa-rub"></i></div>
+                                        <div class="advertising-block-text-little inline_block">Предложение действует до 24 мая 2014</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="advertising-part inline_block">
+                        <div class="advertising-part_part advertising_background" style="background-image: url('img/lavender-oil.png')">
+                            <div class="advertising-block-middle">
+                                <span class="advertising__label">Акция</span>
+                                <div class="advertising-block-text advertising-block-text_color-black">
+                                    <div class="advertising-block-text-middle_param">
+                                        <span class="advertising-block_line-limiter"><strong>Масло Лаванды</strong><br> по специальной цене</span>
+                                    </div>
+                                    <div>
+                                        <div class="advertising-block-middle-text__price inline_block">1 290<i class="fa fa-rub"></i></div>
+                                        <div class="advertising-block-text-little inline_block">Предложение действует до 24 мая 2014</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="advertising-part_part advertising_background" style="background-image: url('img/eduranse.png')">
+                            <div class="advertising-block-middle">
+                                <span class="advertising__label">Акция</span>
+                                <div class="advertising-block-text advertising-block-text_color-black">
+                                    <div class="advertising-block-text-middle_param">
+                                        <span class="advertising-block_line-limiter"><strong>1st Endurance Optyqen HP</strong><br> по специальной цене</span>
+                                    </div>
+                                    <div>
+                                        <div class="advertising-block-middle-text__price inline_block">1 290<i class="fa fa-rub"></i></div>
+                                        <div class="advertising-block-text-little inline_block">Предложение действует до 24 мая 2014</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!--Footer-->
+<div class="padding_side">
+    <footer class=" footer col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 footer-label"><a class="footer-label__link">&copy; 2014 Физикитела</a></div>
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 footer-menu">
+                <ul>
+                    <li class="inline_block"><a class="footer-menu__item">Компания</a></li>
+                    <li class="inline_block"><a class="footer-menu__item">Франчайзинг</a></li>
+                    <li class="inline_block"><a class="footer-menu__item">Контактная информация</a></li>
+                    <li class="inline_block"><a class="footer-menu__item">Качество обслуживания</a></li>
+                    <li class="inline_block"><a class="footer-menu__item">Вакансии</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</div>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script src="js/frontend.js"></script>
+</body>
+</html>
